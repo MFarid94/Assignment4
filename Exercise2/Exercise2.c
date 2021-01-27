@@ -20,8 +20,11 @@ int StringLength(char *str){
 }
 
 int main(void){
-	char *str = "C programming";
+	char str[20];
 	int length;
+
+	printf("Enter a string: ");
+	gets(str);
 
 	length = StringLength(str);
 
